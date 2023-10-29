@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Map{% endblock %}
+
+{% block content %}
+
+<div class="mt-6 px-6 py-6 bg-gray-300 rounded-xl relative">
+    <img src="{% static 'map.jpg' %}" class="w-full" alt="Map of Hospitals">
+    <div>
+        <a href="#" class="transition duration-500 hover:scale-125 hover:bg-white-600 flex justify-center items-center rounded-xl">submit</a>
+    </div>
+</div>
+{% endblock %}
